@@ -1,5 +1,5 @@
 {
-    "name": "shara/headlesscms",
+    "name": "sharacms/front",
     "description": "This package contains APIs used to fetch and update content posted from the backend to the user interface",
     "type": "library",
     "require": {
