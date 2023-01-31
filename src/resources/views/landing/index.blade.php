@@ -1,4 +1,4 @@
-@extends('headlessCms.layout.default')
+@extends('sharacms.layout.default')
 @section('content')
 <section class="hero-sec">
     <div class="container">

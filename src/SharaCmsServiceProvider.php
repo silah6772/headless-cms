@@ -4,9 +4,9 @@ namespace Sharacms\font;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use HeadlessCms\App\Commands\Initialize;
+use SharaCms\App\Commands\Initialize;
 
-class HeadlessCmsServiceProvider extends ServiceProvider
+class SharaCmsServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -36,10 +36,10 @@ class HeadlessCmsServiceProvider extends ServiceProvider
 
         $this->loadRoutesFrom(__DIR__ . '/App/Routes/web.php');
 
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'headlessCms');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'sharacms');
 
         $this->publishes([
-            __DIR__ . '/resources/views' => resource_path('views/headlessCms')
+            __DIR__ . '/resources/views' => resource_path('views/sharacms')
         ]);
 
         $this->publishes([

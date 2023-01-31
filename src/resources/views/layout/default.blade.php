@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-@include('headlessCms.includes.head')
+@include('sharacms.includes.head')
 <body>
 
-    @include('headlessCms.includes.navbar')
+    @include('sharacms.includes.navbar')
 
     @yield('content')
 
-    @include('headlessCms.includes.footer')
+    @include('sharacms.includes.footer')
 
-    @include('headlessCms.includes.script')
+    @include('sharacms.includes.script')
 </body>
 
 </html>

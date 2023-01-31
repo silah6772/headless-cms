@@ -1,6 +1,6 @@
 <?php
 
-use HeadlessCms\App\Http\Controllers\HomeController;
+use SharaCms\App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*

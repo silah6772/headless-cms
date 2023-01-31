@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/responsive-style.css">
     <title>
         @if (!isset($post->title))
-            HeadlessCms Blog
+            SharaCms Blog
         @else
             {{ $post->title }}
         @endif

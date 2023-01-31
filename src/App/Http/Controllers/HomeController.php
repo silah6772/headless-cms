@@ -5,8 +5,8 @@ namespace Sharacms\font\App\Http\Controllers;
 use App\Jobs\FileStorage;
 use App\Jobs\StoreFavicon;
 use App\Jobs\StoreLogo;
-use HeadlessCms\App\Repositories\HeadlessCmsRepository;
-use HeadlessCms\App\Repositories\PaginationRepository;
+use SharaCms\App\Repositories\HeadlessCmsRepository;
+use SharaCms\App\Repositories\PaginationRepository;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -61,7 +61,7 @@ class HomeController extends Controller
 
         $posts = PaginationRepository::paginate($rposts);
 
-        return view('headlessCms.landing.index', compact('menus', 'workspace','main_menus', 'posts'));
+        return view('sharacms.landing.index', compact('menus', 'workspace','main_menus', 'posts'));
     }
 
     public function logo(){
@@ -108,6 +108,6 @@ class HomeController extends Controller
                     array_push($main_menus, (array) $menu_items);
             }
         }
-        return view('headlessCms.post.index', compact('post', 'menus', 'workspace','main_menus', 'widgets'));
+        return view('sharacms.post.index', compact('post', 'menus', 'workspace','main_menus', 'widgets'));
     }
 }
