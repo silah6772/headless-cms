@@ -1,0 +1,30 @@
+{
+    "name": "sharacms/front",
+    "description": "This package contains APIs used to fetch and update content posted from the backend to the user interface",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "jenssegers/agent": "^2.6"
+    },
+    "require-dev": {
+        "../vendor/phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "headlessCms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Headlesscms\\HeadlessCmsServiceProvider"
+            ]
+        }
+    },
+    "authors": [{
+        "name": "kibetbrian",
+        "email": "kimutaibrian9@gmail.com"
+    }],
+    "minimum-stability": "dev"
+}
