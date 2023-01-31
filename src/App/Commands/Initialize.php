@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\font\App\Commands;
+namespace Sharacms\font\App\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\font\App\Http\Controllers;
+namespace Sharacms\font\App\Http\Controllers;
 
 use App\Jobs\FileStorage;
 use App\Jobs\StoreFavicon;

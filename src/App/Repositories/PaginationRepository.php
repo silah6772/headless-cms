@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\font\App\Repositories;
+namespace Sharacms\font\App\Repositories;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;

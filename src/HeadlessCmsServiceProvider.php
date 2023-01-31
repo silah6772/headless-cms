@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\font;
+namespace Sharacms\font;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
