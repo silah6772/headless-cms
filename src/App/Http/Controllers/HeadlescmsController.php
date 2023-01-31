@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\App\Http\Controllers;
+namespace HeadlessCms\font\App\Http\Controllers;
 
 use App\Jobs\FileStorage;
 use HeadlessCms\App\Repositories\HeadlesCmsRepository;

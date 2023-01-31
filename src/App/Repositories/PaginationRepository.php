@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\App\Repositories;
+namespace HeadlessCms\font\App\Repositories;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;

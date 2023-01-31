@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\App\Http\Controllers;
+namespace HeadlessCms\font\App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

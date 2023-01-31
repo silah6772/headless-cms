@@ -1,6 +1,6 @@
 <?php
 
-namespace HeadlessCms\App\Commands;
+namespace HeadlessCms\font\App\Commands;
 
 use Illuminate\Console\Command;
 
