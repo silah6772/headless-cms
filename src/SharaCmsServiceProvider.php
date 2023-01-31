@@ -1,6 +1,6 @@
 <?php
 
-namespace Sharacms\font;
+namespace SharaCms\font;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -25,21 +25,16 @@ class SharaCmsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // if ($this->app->runningInConsole()) {
-        //     $this->commands([
-        //         Initialize::class
-        //     ]);
-        // }
         Route::middleware('api')->prefix('api')->group(function () {
             $this->loadRoutesFrom(__DIR__ . '/App/Routes/api.php');
         });
 
         $this->loadRoutesFrom(__DIR__ . '/App/Routes/web.php');
 
-        $this->loadViewsFrom(__DIR__ . '/resources/views', 'sharacms');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'sharaCms');
 
         $this->publishes([
-            __DIR__ . '/resources/views' => resource_path('views/sharacms')
+            __DIR__ . '/resources/views' => resource_path('views/sharaCms')
         ]);
 
         $this->publishes([

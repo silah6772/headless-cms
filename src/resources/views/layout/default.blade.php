@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-@include('sharacms.includes.head')
+@include('sharaCms.includes.head')
 <body>
 
-    @include('sharacms.includes.navbar')
+    @include('sharaCms.includes.navbar')
 
     @yield('content')
 
-    @include('sharacms.includes.footer')
+    @include('sharaCms.includes.footer')
 
-    @include('sharacms.includes.script')
+    @include('sharaCms.includes.script')
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 <?php
 use Illuminate\Support\Facades\File;
 function getBladeFiles() {
-    $directory = resource_path('views/sharacms/post/');
+    $directory = resource_path('views/sharaCms/post/');
     $files = File::allFiles($directory);
     $bladeFiles = array_filter($files, function ($file) {
         return strpos($file->getFilename(), '.blade.php') !== false && $file->getFilename() !== 'index.blade.php';
@@ -17,7 +17,7 @@ $body = preg_replace_callback("/\[(.*?)\]/s", function($matches) {
     if (preg_match("/^<.+>$/", $content)) {
         return $content;
     } else {
-        return view("sharacms.post.$content")->render();
+        return view("sharaCms.post.$content")->render();
     }
 }, $body);
 $body = preg_replace_callback("/(\[.*?\])/", function($matches) {
@@ -78,7 +78,7 @@ $body = preg_replace_callback("/(\[.*?\])/", function($matches) {
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-7">
-                @include('sharacms.post.banner_get_support')
+                @include('sharaCms.post.banner_get_support')
                 <hr class="hr1">
                 <div class="use">
                     <h1>{{ $post->title }}</h1>
@@ -92,7 +92,7 @@ $body = preg_replace_callback("/(\[.*?\])/", function($matches) {
                         @if($key =='top')
                             @foreach($widget as $widget)
                                 @if($widget->widget_type =='custom')
-                                    @include("sharacms.post.".$widget->title)
+                                    @include("sharaCms.post.".$widget->title)
                                 @else
                                     <div class="traffic  {{ $widget->css_class }}">
                                         <div class="more">
@@ -113,7 +113,7 @@ $body = preg_replace_callback("/(\[.*?\])/", function($matches) {
                         @if($key =='bottom')
                             @foreach($widget as $widget)
                                 @if($widget->widget_type =='custom')
-                                    @include("sharacms.post.".$widget->title)
+                                    @include("sharaCms.post.".$widget->title)
                                 @else
                                     <div class="traffic  {{ $widget->css_class }}">
                                         <div class="more">
@@ -131,14 +131,14 @@ $body = preg_replace_callback("/(\[.*?\])/", function($matches) {
                     @endforeach
                 </div>
                 <hr class="mt-5">
-                @include('sharacms.post.share-social')
+                @include('sharaCms.post.share-social')
             </div>
             <div class="col-12 col-md-5 hidden-xs">
                 @foreach ($widgets as $key=> $widget)
                     @if($key =='left')
                         @foreach($widget as $widget)
                             @if($widget->widget_type =='custom')
-                                @include("sharacms.post.".$widget->title)
+                                @include("sharaCms.post.".$widget->title)
                             @else
                                 <div class="traffic  {{ $widget->css_class }}">
                                     <div class="more">
@@ -158,7 +158,7 @@ $body = preg_replace_callback("/(\[.*?\])/", function($matches) {
         </div>
     </div>
 </section>
-@include('sharacms.post.speak-footer')
+@include('sharaCms.post.speak-footer')
 
 <footer class="footer-sec">
     <div class="container">

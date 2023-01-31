@@ -1,6 +1,6 @@
 <?php
 
-namespace Sharacms\font\App\Http\Controllers;
+namespace SharaCms\font\App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

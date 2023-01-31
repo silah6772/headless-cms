@@ -1,6 +1,6 @@
 <?php
 
-namespace Sharacms\font\App\Repositories;
+namespace SharaCms\font\App\Repositories;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;

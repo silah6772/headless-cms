@@ -1,6 +1,6 @@
 <?php
 
-namespace Sharacms\font\App\Commands;
+namespace SharaCms\font\App\Commands;
 
 use Illuminate\Console\Command;
 

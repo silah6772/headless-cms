@@ -1,6 +1,6 @@
 <?php
 
-namespace Sharacms\font\App\Http\Controllers;
+namespace SharaCms\font\App\Http\Controllers;
 
 use App\Jobs\FileStorage;
 use App\Jobs\StoreFavicon;
@@ -61,7 +61,7 @@ class HomeController extends Controller
 
         $posts = PaginationRepository::paginate($rposts);
 
-        return view('sharacms.landing.index', compact('menus', 'workspace','main_menus', 'posts'));
+        return view('sharaCms.landing.index', compact('menus', 'workspace','main_menus', 'posts'));
     }
 
     public function logo(){
@@ -108,6 +108,6 @@ class HomeController extends Controller
                     array_push($main_menus, (array) $menu_items);
             }
         }
-        return view('sharacms.post.index', compact('post', 'menus', 'workspace','main_menus', 'widgets'));
+        return view('sharaCms.post.index', compact('post', 'menus', 'workspace','main_menus', 'widgets'));
     }
 }

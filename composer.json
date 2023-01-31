@@ -10,13 +10,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sharacms\\": "src/"
+            "sharacms\\font\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sharacms\\SharaCmsServiceProvider"
+                "Sharacms\\SharaCmsServiceProvider\\"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sharacms\font\App\Http\Controllers;
+namespace SharaCms\font\App\Http\Controllers;
 
 use App\Jobs\FileStorage;
 use SharaCms\App\Repositories\HeadlesCmsRepository;
