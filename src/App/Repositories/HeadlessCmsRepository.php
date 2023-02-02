@@ -1,6 +1,6 @@
 <?php
 
-namespace SharaCms\font\App\Repositories;
+namespace SharaCms\Font\App\Repositories;
 
 use App\Jobs\FileStorage;
 use App\Jobs\StoreDefaultPostImage;

@@ -1,12 +1,12 @@
 <?php
 
-namespace SharaCms\font\App\Http\Controllers;
+namespace SharaCms\Font\App\Http\Controllers;
 
 use App\Jobs\FileStorage;
 use App\Jobs\StoreFavicon;
 use App\Jobs\StoreLogo;
-use SharaCms\font\App\Repositories\HeadlessCmsRepository;
-use SharaCms\font\App\Repositories\PaginationRepository;
+use SharaCms\Font\App\Repositories\HeadlessCmsRepository;
+use SharaCms\Font\App\Repositories\PaginationRepository;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;

@@ -1,10 +1,10 @@
 <?php
 
-namespace SharaCms\font;
+namespace SharaCms\Font;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use SharaCms\font\App\Commands\Initialize;
+use SharaCms\Font\App\Commands\Initialize;
 
 class SharaCmsServiceProvider extends ServiceProvider
 {

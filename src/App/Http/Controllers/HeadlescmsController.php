@@ -1,9 +1,9 @@
 <?php
 
-namespace SharaCms\font\App\Http\Controllers;
+namespace SharaCms\Font\App\Http\Controllers;
 
 use App\Jobs\FileStorage;
-use SharaCms\font\App\Repositories\HeadlesCmsRepository;
+use SharaCms\Font\App\Repositories\HeadlesCmsRepository;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
