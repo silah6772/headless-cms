@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sharacms\\font\\SharaCmsServiceProvider"
+                "Sharacms\\Font\\SharaCmsServiceProvider"
             ]
         }
     },
