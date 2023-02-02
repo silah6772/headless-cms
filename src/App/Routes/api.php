@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use SharaCms\App\Http\Controllers\HeadlescmsController;
+use SharaCms\font\App\Http\Controllers\HeadlescmsController;
 
 /*
 |--------------------------------------------------------------------------

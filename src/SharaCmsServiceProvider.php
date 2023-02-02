@@ -4,7 +4,7 @@ namespace SharaCms\font;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use SharaCms\App\Commands\Initialize;
+use SharaCms\font\App\Commands\Initialize;
 
 class SharaCmsServiceProvider extends ServiceProvider
 {

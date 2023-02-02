@@ -3,7 +3,7 @@
 namespace SharaCms\font\App\Http\Controllers;
 
 use App\Jobs\FileStorage;
-use SharaCms\App\Repositories\HeadlesCmsRepository;
+use SharaCms\font\App\Repositories\HeadlesCmsRepository;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;

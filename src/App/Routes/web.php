@@ -1,6 +1,6 @@
 <?php
 
-use SharaCms\App\Http\Controllers\HomeController;
+use SharaCms\font\App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 //Route::get('/', function () {
 //    return view('welcome');
 //});
+Route::get('/', [HomeController::class, 'landing'])->name('landing');
 Route::get('/', [HomeController::class, 'landing'])->name('landing');
 Route::get('/logo', [HomeController::class, 'logo'])->name('logo');
 Route::get('/default-post-image', [HomeController::class, 'defaultPostImage'])->name('default-post-image');
